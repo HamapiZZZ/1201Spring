@@ -1,0 +1,12 @@
+1、添加pom.xml依赖
+mybatis整合springboot依赖项
+mysql驱动类依赖项
+2、修改application.yml配置文件
+3、定义domain包里的实体类
+4、定义mapper包里的AdminsMapper接口
+5、在启动类里添加@MapperScan注解，自动扫描mybatis接口包
+6、写测试
+7、定义service包的接口和实现类
+8、定义controller包的控制器
+9、启动后端服务
+10、使用postman测试restful请求
